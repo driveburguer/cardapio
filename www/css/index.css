@@ -77,13 +77,13 @@ nav a:hover {
 #welcome {
     background-image: url(../images/hamburguer.webp);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
-
     z-index: 1;
+    width: 320px;
+    height: 250px;
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    margin: 40px;
 }
 
 #welcome-black {
@@ -114,15 +114,17 @@ nav a:hover {
 }
 
 #description {
-	background-color: #1a2328;
+    background-color: #1a2328;
     color: #747d82;
     background-image: url(../images/entradalanchonete.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
     z-index: 1;
     width: 100%;
     height: 100vh;
+    top: -325px;
 }
 
 .img-description {
@@ -258,7 +260,7 @@ footer.page-footer{
 }
 
 .logo {
-	background-image: url(../images/logoGrande.png);
+	background-image: url(../images/logoGrande.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	min-width: 150px;
@@ -267,7 +269,7 @@ footer.page-footer{
 	margin-top: 20px;
 }
 .logo-small {
-	background-image: url(../images/logoGrande.png);
+	background-image: url(../images/logoGrande.webp);
 	min-width: none;
 	min-height: 56px;
 	margin-top: 0px;
@@ -326,15 +328,16 @@ footer p {
 }
 
 .logo-burger {
-    background-image: url(../images/logoGrande.png);
+    background-image: url(../images/logoGrande.webp);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    height: 50vh;
+    width: 250px;
+    height: 250px;
     background-size: contain;
     position: absolute;
     position: center;
-    top: 20vh;
+    top: 5vh;
+	margin: 75px;
 }
 
 #products .col {
